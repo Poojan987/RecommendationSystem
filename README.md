@@ -95,7 +95,7 @@ The ratings from range 3 to 5 is higher as compared to 1 to 2. We can see pie ch
 
 
 Here is the line chart where we had showed Number of ratings given by the users vs the user id. Here we can see that the avg number of rating is around 100 and maximum reaches around 737.
-![alt text]https://github.com/Poojan987/RecommendationSystem/blob/master/img/lineChart.png?raw=true)
+![alt text](https://github.com/Poojan987/RecommendationSystem/blob/master/img/lineChart.png?raw=true)
 
 We had also made UI to show a list of movies having ratings which a specific user has done.
 ![alt text](https://github.com/Poojan987/RecommendationSystem/blob/master/img/ui.png?raw=true)
