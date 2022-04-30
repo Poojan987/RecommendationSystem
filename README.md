@@ -1,4 +1,18 @@
 # Recommendation System
+### Problem
+
+Recommendations are significant for the company’s sales and marketing campaigns. Promoting the product to potential customers is necessary because the amount spent on marketing has a higher chance of conversion. Recommendations are helpful for the companies like Amazon; they can suggest some complementary products which the user had bought earlier or added to a cart multiple times. Even if Netflix wants to engage its consumers more and more on its platform, they need to provide suggestions based on predicting the user’s taste.
+
+Here the problem is to select which type of model to recommend, whether it is Collaborative Filtering, Content-Based Model, or Hybrid Model. (Combination of Both). We have tried to find the best model for it based on the slightest error.
+
+
+### Solution
+As we have different approaches as an option which includes 
+#####  &nbsp;&nbsp;&nbsp; (A)Content Based Model: It suggests on the basis of activity of the user. (Likes, Products bought etc)
+#####  &nbsp;&nbsp;&nbsp; (B)Colloborative Model: It suggests on the basis of the activity of all the users and relevancy of the user with that particular product/content.
+#####  &nbsp;&nbsp;&nbsp; (C)Hyrbrid: Hybrid approach includes the combination of both of (a) & (b). 
+
+We tried to find out Root Mean Squared Error to find out the best recommendation model. We found that hybrid model turns out to be the best model with least error.
 
 ### Implementation Steps
 Work-flow of this project can be divided into 7 main steps. The following directory structure was used during the development of this: 
@@ -68,3 +82,20 @@ hive -f hivescript2.sql
 ##### 7) Creating GUI [JSP and mongoDB]
 
 The GUI was created using JSP over mongoDB.
+
+
+
+
+#### Describe the results properly
+We collected dataset from a trusted source website namely movielens where the data is about users ratings and also about movies' title, cast , realese data , & genre. There are 100,000 ratings from 1000 users on 1700 movies.
+
+
+The ratings from range 3 to 5 is higher as compared to 1 to 2. We can see pie chart for the percentage distribution.
+![alt text](https://github.com/[Poojan987]/[RecommendationSystem]/blob/[master]/img/pieChart.png?raw=true)
+
+
+Here is the line chart where we had showed Number of ratings given by the users vs the user id. Here we can see that the avg number of rating is around 100 and maximum reaches around 737.
+![alt text](https://github.com/[Poojan987]/[RecommendationSystem]/blob/[master]/img/lineChart.png?raw=true)
+
+We had also made UI to show a list of movies having ratings which a specific user has done.
+![alt text](https://github.com/[Poojan987]/[RecommendationSystem]/blob/[master]/img/ui.png?raw=true)
