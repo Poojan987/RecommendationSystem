@@ -94,16 +94,16 @@ The GUI was created using JSP over mongoDB.
 
 
 
-#### Describe the results properly
+# Describe the results properly
 We collected dataset from a trusted source website namely movielens where the data is about users ratings and also about movies' title, cast , realese data , & genre. There are 100,000 ratings from 1000 users on 1700 movies.
 
 
-The ratings from range 3 to 5 is higher as compared to 1 to 2. We can see pie chart for the percentage distribution.
+##### The ratings from range 3 to 5 is higher as compared to 1 to 2. We can see pie chart for the percentage distribution.
 ![alt text](https://github.com/Poojan987/RecommendationSystem/blob/main/img/pieChart.png?raw=true)
 
 
-Here is the line chart where we had showed Number of ratings given by the users vs the user id. Here we can see that the avg number of rating is around 100 and maximum reaches around 737.
+##### Here is the line chart where we had showed Number of ratings given by the users vs the user id. Here we can see that the avg number of rating is around 100 and maximum reaches around 737.
 ![alt text](https://github.com/Poojan987/RecommendationSystem/blob/main/img/lineChart.png?raw=true)
 
-We had also made UI to show a list of movies having ratings which a specific user has done.
+##### We had also made UI to show a list of movies having ratings which a specific user has done.
 ![alt text](https://github.com/Poojan987/RecommendationSystem/blob/main/img/ui.png?raw=true)
