@@ -7,16 +7,24 @@ Work-flow of this project can be divided into 7 main steps. The following direct
 
 A) Directories you need to create:-
 /RcomSys
+
 \- &nbsp;&nbsp;&nbsp;&nbsp; /OriginalData (Contains u.data file which is -> User Item Rating)
+
 \- &nbsp;&nbsp;&nbsp; /items (Contains u.item -> Item details )
+
 \- &nbsp;&nbsp;&nbsp; JUser (Contains u.user -> User details )
+
 \- &nbsp;&nbsp;&nbsp; /Genre (Contains u.genre -> Genre details )
 
 B) Directories that will be automatically created:-
 /RcomSys
+
 \- &nbsp;&nbsp;&nbsp; /UserltemRating (Output of MapReduce Job -> Modifeid Dataset )
+
 \- &nbsp;&nbsp;&nbsp; /ContentOut (Output of ContentBased.pig )
+
 \- &nbsp;&nbsp;&nbsp; /CollabOut (Output of Collaborative.pig )
+
 \- &nbsp;&nbsp;&nbsp; /HybridOut (Output of Hybrid.pig )
 
 ##### 1) Creating the required [MySQL]
